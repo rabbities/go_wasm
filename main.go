@@ -13,7 +13,7 @@ func main() {
 	icon, _ := pkg.Icon(nil)
 	pkgName := pkg.PackageName()
 	resConfigEN := &androidbinary.ResTableConfig{
-		Language: [2]uint8{uint8('e'), uint8('n')},
+		Language: [2]uint8{uint8('z'), uint8('h')},
 	}
 	// appLabel :=
 	appLabel, _ := pkg.Label(resConfigEN)
